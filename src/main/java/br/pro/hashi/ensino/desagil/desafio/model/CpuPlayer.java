@@ -49,6 +49,7 @@ public class CpuPlayer extends Player {
 
     // O corpo do loop implícito mencionado acima é este método.
     public void move() {
+
         if (!stack.isEmpty()) {
 
             // Na árvore, precisávamos dar um peek na pilha para descobrir a

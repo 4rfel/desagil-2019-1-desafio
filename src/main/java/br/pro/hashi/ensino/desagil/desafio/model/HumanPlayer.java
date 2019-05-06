@@ -28,4 +28,14 @@ public class HumanPlayer extends Player {
             move(0, -1);
         }
     }
+
+    @Override
+    public int getCol() {
+        return super.getCol();
+    }
+
+    @Override
+    public int getRow() {
+        return super.getRow();
+    }
 }

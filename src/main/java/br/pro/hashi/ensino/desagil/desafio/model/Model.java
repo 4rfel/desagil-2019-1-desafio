@@ -24,9 +24,7 @@ public class Model {
         return winner;
     }
 
-    public void setWinner(Player winner) {
-        this.winner = winner;
-    }
+    public void setWinner(Player winner) { this.winner = winner; }
 
     public Board getBoard() {
         return board;
